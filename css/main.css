@@ -21,5 +21,16 @@ html {
 }
 
 main {
+	width: 100%;
 	margin: 0 auto;
+	background: #F5F5F5;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+}
+
+h2, p, a {
+	font-family: 'Roboto', sans-serif;
+	
 }
