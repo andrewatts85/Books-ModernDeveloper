@@ -1,0 +1,62 @@
+header {
+	margin: 0 auto;
+	padding-top: 0;
+}
+
+.site-header {
+	display: inline-block;
+	height: 240px;
+	width: 100%;
+	background-image: url("../UI_Assets/books_header_bg.jpg");
+	background-repeat: no-repeat;
+}
+
+.site-heading,
+.search {
+	display: block;
+	max-width: 610px;
+	width: 610px;
+	margin: 0 auto;
+}
+
+.site-heading {
+	height: 6.95rem;
+	margin-top: 2rem;
+}
+.site-heading .logo {
+	display: block;
+	width: 72px;
+	float: left;
+	margin-left: 4px;
+}
+
+.site-heading h1,
+.site-heading p {
+	width: 85%;
+	float: left;
+	display: block;
+	padding-left: 16px;
+}
+.site-heading h1 {
+	font-size: 1.75rem;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 4px;
+	color: white;
+}
+
+.site-heading p {
+	font-size: .85em;
+	line-height: 1.5em;
+	margin-top: 0;
+}
+
+.site-header .search {
+	height: 48px;
+	outline: none;
+	border: 0;
+	border-radius: 3px;
+	padding-left: 16px;
+
+}
+

@@ -1,0 +1,25 @@
+@import url("normalize.css");
+@import url("nav.css");
+
+.clearfix:after {
+	display: '';
+	display: table;
+	clear: both;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	margin-top: 0;
+}
+
+main {
+	margin: 0 auto;
+}
