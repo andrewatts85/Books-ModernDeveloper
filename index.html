@@ -8,19 +8,21 @@
 </head>
 <body>
 	<div class="container clearfix">
-		<header>
-			<div class="site-header clearfix">
-				<div class="site-heading">
-					<img src="UI_Assets/books.MD_logo_icon.png" alt="Book graphic for logo." class="logo">
-					<h1><span class="h1-first-word">Books.</span> Modern Developer</h1>
-					<p>The Largest Resource of Web and Mobile Development and Programming Books</p>
+		<div class="header-nav-container">
+			<header>
+				<div class="heading-search-container clearfix">
+					<div class="heading-container">
+						<a href="index.html"><img src="UI_Assets/books.MD_logo_icon.png" alt="Book graphic for logo." class="logo"></a>
+						<h1><span class="h1-first-word">Books.</span> Modern Developer</h1>
+						<p>The Largest Resource of Web and Mobile Development and Programming Books</p>
+					</div>
+					<div class="search-container">
+						<label for="search"></label>
+						<input id="search" class="search" type="search" placeholder="Search books by any keyword or title...">
+						<a class="search-icon" href=""><img src="UI_Assets/search.png"></a>
+					</div>
 				</div>
-				<div class="search-container">
-					<label for="search"></label>
-					<input id="search" class="search" type="search" placeholder="Search books by any keyword or title...">
-					<a class="search-icon" href=""><img src="UI_Assets/search.png"></a>
-				</div>
-			</div>
+			</header>
 			<nav class="site-nav-menu">
 				<ul>
 					<li><a href="">UI/UX Design</a></li>
@@ -31,7 +33,7 @@
 					<li><a href="">Backend Development</a></li>
 				</ul>
 			</nav>
-		</header>
+		</div>
 		<main></main>
 		<footer></footer>
 	</div>
