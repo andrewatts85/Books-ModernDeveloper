@@ -110,28 +110,32 @@ header {
 	color: #6C7F2E;
 }
 
-.search + a {
+.search-button {
 	/*Clear defaults*/
+	position: relative;
 	outline: 0;
+	border: 0;
 	/*Positioning*/
 	display: block;
-	position: absolute;
-	top: 0;
-	right: 0;
+	float: right;
 	/*Dimensions*/
 	height: 100%;
 	width: 56px;
 	/*Appearance*/
 	border-radius: 0 3px 3px 0;
 	background: #f5f5f5;
+	color: transparent;
 	/*color: #6C7F2E;*/
 }
 
-.search + a > img {
+.search-button + img {
 	/*Positioning*/
-	margin: 12px 0 0 16px;
+	position: absolute;
+	top: 12px;
+	right: 16px;
+	/*margin: 12px 0 0 16px;*/
 	/*Width*/
-	width: 40%;
+	width: 22px;
 }
 
 /********NAV STYLES********/
