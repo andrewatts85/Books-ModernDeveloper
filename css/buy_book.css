@@ -72,12 +72,12 @@
 }
 .gumroad-button img {
 	width: 28px;
-	margin: 4px 8px 0 24px;
+	margin: 6px 8px 0 24px;
 	padding: 0;
 }
 
 .gumroad-button span {
-	margin-top: 10px;
+	margin-top: 12px;
 	font-size: .9rem;
 	color: #b6b6b6;
 }
