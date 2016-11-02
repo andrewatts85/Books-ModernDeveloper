@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Books.Modern Developer</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -36,6 +38,77 @@
 			</nav>
 		</div>
 		<main>
+
+			<!-- Begin book component markup -->
+			<div class='book-section'>
+
+				<div class="stats">
+
+					<div class="book-title">
+						<h1>Eloquent Javascript:</h1>
+						<h1>A Modern Introduction to Programming</h1>
+						<p>by <a href="#">Marijn Haverbeke</a> &nbsp;&nbsp; <a href="#">Follow</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>Published on 2015 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2nd edition</span></p>
+					</div><!-- .book-title -->
+
+					<div class="info">
+						<p>JavaScript lies at the heart of almost every modern web application, form social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
+						<p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.</p><br>
+						<a href="#">Read More</a>
+					</div><!-- .info -->
+
+					<div class="score">
+						<div class="meter-bar">
+							<p>Easy to follow <i class="material-icons">chat_bubble</i> <span>80%</span></p>
+							<meter value="80" max="100"></meter>
+						</div>
+
+						<div class="meter-bar">
+							<p>Comprehensive <i class="material-icons">chat_bubble</i> <span>75%</span></p>
+							<meter value="75" max="100"></meter>
+						</div>
+
+						<div class="meter-bar">
+							<p>Enough examples <i class="material-icons">chat_bubble</i> <span>95%</span></p>
+							<meter value="95" max="100"></meter>
+						</div>
+
+						<div class="links">
+							<a href="#">Rate the Book <i class="material-icons">keyboard_arrow_right</i></a><br>
+							<hr>
+							<a href="#">Table of Contents <i class="material-icons">keyboard_arrow_right</i></a><br>
+							<hr>
+							<a href="#">Search Inside <i class="material-icons">keyboard_arrow_right</i></a>
+						</div>
+					</div><!-- .score -->
+
+				</div><!-- .stats -->
+
+				<div class="book-img">
+					<img src="http://prodimage.images-bn.com/pimages/9781593275846_p0_v2_s1200x630.jpg">
+				</div><!-- .book-img -->
+
+			</div><!-- .book-section -->
+
+			<ul class="buttons">
+				<li>
+					<a class="gumroad-button" href="https://gum.co/demo" target="_blank">Gumroad</a><span class="price" >$28.40</span>
+				</li>
+				<li>
+					<a class="amazon-button" href="#"><img src="http://www.guitarvguitar.com/images/amazon-logo.png"></a><span class="price" >$29.65</span>
+				</li>
+				<li>
+					<a href="#"><span class="top-color">publisher</span> manning.com</a><span class="price" >$28.70</span>
+				</li>
+				<li>
+					<p><i class="material-icons">library_books</i><br>Bookmark It</p>
+				</li>
+			</ul>
+
+			<!-- gumroad button widget script -->
+			<script src="https://gumroad.com/js/gumroad.js"></script>
+
+			<!-- End book component markup -->
+
 			<section class="tabbed-section">
 				<label for="search-book"></label>
 				<input class="search-book" id="search-book" type="search" placeholder="JavaScript">

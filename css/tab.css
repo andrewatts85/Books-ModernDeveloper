@@ -2,6 +2,7 @@
 	/*Positioning*/
 	position: relative;
 	margin: 0 auto;
+	clear: both;
 	/*Dimensions*/
 	max-width: 632px;
 	height: 430px;

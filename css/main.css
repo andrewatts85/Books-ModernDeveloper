@@ -1,5 +1,6 @@
 @import url("normalize.css");
 @import url("nav.css");
+@import url("book-component.css");
 @import url("tab.css");
 
 .clearfix:after {
