@@ -88,24 +88,48 @@
 				</div><!-- .book-img -->
 
 			</div><!-- .book-section -->
-
+			<!--
 			<ul class="buttons">
-				<li>
-					<a class="gumroad-button" href="https://gum.co/demo" target="_blank">Gumroad</a><span class="price" >$28.40</span>
-				</li>
-				<li>
-					<a class="amazon-button" href="#"><img src="UI_Assets/amazon-logo.png"></a><span class="price" >$29.65</span>
-				</li>
-				<li>
-					<a href="#"><span class="top-color">publisher</span> manning.com</a><span class="price" >$28.70</span>
-				</li>
-				<li>
-					<p><i class="material-icons">library_books</i><br>Bookmark It</p>
-				</li>
+				<li><a class="gumroad-button" href="https://gum.co/demo" target="_blank">Gumroad</a><span class="price" >$28.40</span></li>
+				<li><a class="amazon-button" href="#"><img src="UI_Assets/amazon-logo.png"></a><span class="price" >$29.65</span></li>
+				<li><a href="#"><span class="top-color">publisher</span> manning.com</a><span class="price" >$28.70</span></li>
+				<li><p><i class="material-icons">library_books</i><br>Bookmark It</p></li>
 			</ul>
+			-->
 
 			<!-- gumroad button widget script -->
 			<script src="https://gumroad.com/js/gumroad.js"></script>
+
+			<!-- modified buttons -->
+
+			<section class="buybook-section clearfix">
+				<div class="buybook-container clearfix">
+					<div class="publisher-container gumroad-button">
+						<a href="#">
+							<img src="UI_Assets/gumroad_icon.png" alt="Gumroad icon">
+							<span>Gumroad</span>
+						</a>
+					</div>
+					<span class="book-price">$28.40</span>
+				</div>
+
+				<div class="buybook-container">
+					<div class="publisher-container amazon-button">
+						<a href="">
+							<img src="UI_Assets/amazon_icon.png" alt="Amazon.com arrow">
+							<!-- <span><em>amazon</em>.com</span> -->
+						</a>
+					</div>
+					<span class="book-price">$29.65</span>
+				</div>
+				<div class="buybook-container">
+					<div class="publisher-container manning-button">
+						<a href=""><span class="first-word">publisher</span><span>manning.com</span></a>
+					</div>
+					<span class="book-price">$28.70</span>
+				</div>
+
+			</section>
 
 			<!-- End book component markup -->
 
