@@ -9,5 +9,9 @@ A site which aims to be -
 
 ######Team:
 
-####[Andre Watts]()
+####[Andre Watts](https://github.com/andrewatts85)
 ####[Blake Wilson](https://github.com/BlakeSandes)
+
+#### [Encyclopedia Entries](https://github.com/moderndeveloper-students/coursework-andrewatts85/tree/master/encyclopedia-entries)
+
+#### [Live Demo]()
