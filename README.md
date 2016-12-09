@@ -12,6 +12,6 @@ A site which aims to be -
 ####[Andre Watts](https://github.com/andrewatts85)
 ####[Blake Wilson](https://github.com/BlakeSandes)
 
-#### [Encyclopedia Entries](https://github.com/moderndeveloper-students/coursework-andrewatts85/tree/master/encyclopedia-entries)
+#### [Encyclopedia Entries](https://github.com/andrewatts85/encyclopedia-entries)
 
 #### [Live Demo](https://andrewatts85.github.io/Books-ModernDeveloper/)
