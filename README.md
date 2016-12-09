@@ -14,4 +14,4 @@ A site which aims to be -
 
 #### [Encyclopedia Entries](https://github.com/moderndeveloper-students/coursework-andrewatts85/tree/master/encyclopedia-entries)
 
-#### [Live Demo]()
+#### [Live Demo](https://andrewatts85.github.io/Books-ModernDeveloper/)
