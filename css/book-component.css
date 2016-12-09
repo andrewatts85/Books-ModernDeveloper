@@ -1,0 +1,230 @@
+/* Begin book component styling */
+.book-section {
+    background-color: white;
+    height: 33.6em;
+    width: 85%;
+    margin: 0 auto;
+    border-top: 3.5em solid #F5F5F5;
+    overflow: hidden;
+    font-family: Roboto;
+    padding-bottom: 0;
+}
+
+.book-section .stats {
+    width: 85%;
+}
+
+/* header styles*/
+.book-section .stats .book-title {
+    width: 80.5%;
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+}
+
+.book-section .stats .book-title > h1 {
+    font-size: 1.8em;
+    line-height: .5em;
+    font-weight: 400;
+}
+
+.book-section .stats .book-title a, .info > a {
+    text-decoration: none;
+}
+
+.book-section .stats .book-title > p a:nth-child(1), .info > a{
+    color: #3183C9;
+}
+
+.book-section .stats .book-title > p a:nth-child(2) {
+    color: #A7C931;
+    border: .063em solid #A7C931;
+    border-radius: .25em;
+    padding: .2em .4em .2em .4em;
+}
+
+.book-section .stats .book-title > p span {
+    color: #CCCCCC;
+}
+
+/* .info styles */
+.book-section .stats .info {
+    border-right: .063em solid #E5E5E5;
+    width: 45%;
+    padding: 0 1.5em 1.5em 1.5em;
+    margin-bottom: 1em;
+    float: left;
+}
+
+.book-section .stats .info p {
+    line-height: 1.5em;
+}
+
+/* .score styles */
+.book-section .stats .score {
+    width: 35%;
+    float: left;
+    position: relative;
+    top: -2em;
+}
+
+.book-section .stats .score .meter-bar {
+    height: 2.8em;
+}
+
+.book-section .stats .score .meter-bar p {
+    display: inline-block;
+    width: 74%;
+    color: #F7BE26;
+    font-size: .9em;
+    padding-left: 3em;
+    position: relative;
+    top: 1.8em;
+}
+
+.book-section .stats .score .meter-bar:nth-child(2) p {
+    color: #75C36A;
+}
+
+.book-section .stats .score .meter-bar:nth-child(3) p {
+    color: #5AC9E3;
+}
+
+.book-section .stats .score .meter-bar p i {
+    font-size: 1.45em;
+    padding-top: .3em;
+
+}
+
+.book-section .stats .score .meter-bar p > span {
+    margin-top: 1em;
+    display: block;
+    float: right;
+}
+
+.book-section .stats .score .meter-bar meter {
+    width: 100%;
+    height: .25em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.book-section .stats .score .meter-bar meter::-webkit-meter-bar {
+    background: #F3F3F3;
+}
+
+.book-section .stats .score .meter-bar meter::-webkit-meter-optimum-value {
+    background: #F7BE26;
+}
+
+.book-section .stats .score .meter-bar:nth-child(2) meter::-webkit-meter-optimum-value {
+    background: #75C36A;
+}
+
+.book-section .stats .score .meter-bar:nth-child(3) meter::-webkit-meter-optimum-value {
+    background: #5AC9E3;
+}
+
+/* .links styles */
+.book-section .stats .score .links {
+    padding-left: 2em;
+    position: relative;
+    top: 4.5em;
+    line-height: 1.3em;
+}
+
+.book-section .stats .score .links a {
+    text-decoration: none;
+    color: #3183c9;
+    font-size: 1.05em;
+}
+
+.book-section .stats .score .links a i {
+    float: right;
+    font-size: 1em;
+    padding-top: .5em;
+    padding-right: 1.5em;
+}
+
+.book-section .stats .score .links hr {
+    margin-right: 2em;
+    border: none;
+    height: .07em;
+    background-color: #E5E5E5;
+}
+
+/* .book-img styles */
+.book-section .book-img img {
+    position: relative;
+    top: -9.32em;
+    height: 30.5em;
+    width: 32%;
+}
+
+/* .button styles */
+ul.buttons {
+    list-style-type: none;
+    width: 85%;
+    margin: 1em 0 0 2.9em;;
+    font-family: Roboto;
+    float: left;
+}
+
+ul.buttons li {
+    margin: 1em;
+    float: left;
+}
+
+ul.buttons li span.price {
+    color: #98C10B;
+    background: white;
+    padding: .5em .5em .8em .5em;
+    font-size: 1.22em;
+    border-radius: 0 .25em .25em 0;
+    border-left: .063em solid lightgray;
+}
+
+ul.buttons li:nth-child(2) span.price {
+    position: relative;
+    top: -1.05em;
+    margin-left: -.15em;
+    border-left: none;
+}
+
+ul.buttons li:nth-child(2) a img {
+    height: 3.2em;
+}
+
+ul.buttons li:nth-child(3) {
+    margin: 1em;
+    padding-top: .8em;
+}
+
+ul.buttons li:nth-child(3) a {
+    text-decoration: none;
+    color: #A4C838;
+    background-color: #272727;
+    padding: 1.3em;
+    border-radius: .3em .3em .3em .3em;
+    font-size: small;
+}
+
+ul.buttons li:nth-child(3) a span.top-color {
+    color: #969696;
+}
+
+ul.buttons li:nth-child(4) {
+    float: right;
+    text-align: center;
+    font-size: .9em;
+    color: #9FA09E;
+    position: relative;
+    top: -1em;
+    left: 4.2em;
+}
+
+ul.buttons li i {
+    font-size: 2.5em;
+    color: #858683;
+}
+
+/* End book component styling */
