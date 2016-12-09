@@ -51,6 +51,19 @@ p, a {
 a {
 	text-decoration: none;
 }
+
+.load-books {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #c9c9c9;
+	font-size: 1.05rem;
+}
+
+/********FOOTER********/
+
 footer {
 	/*Positioning*/
 	margin-top: 350px;

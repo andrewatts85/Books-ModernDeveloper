@@ -1,17 +1,26 @@
-#Books.Modern Developer
+# [Books.Modern Developer]( https://blakesandes.github.io/Books-ModernDeveloper/)
+# [Watts Live Demo](https://andrewatts85.github.io/Books-ModernDeveloper/)
 
-######Purpose: 
+The Books.Modern Developer site is intended to be **"The Largest Resource of Web and Mobile Development and Programming Books"**
+
+#### Team:
+
+#### [Andre Watts](https://github.com/andrewatts85)
+#### [Blake Wilson](https://github.com/BlakeSandes)
+
+#### Scope of Project:
+
 Build the UI for the Books.Modern Developer site. 
 
-A site which aims to be - 
+Consisting of:
 
-**"The Largest Resource of Web and Mobile Development and Programming Books"**
+ * Header with search bar.
+ * Navigation bar.
+ * Book sections with book cover photo.
+ * *Search Inside* section.
+ * *Book purchase* buttons.
+ * Footer.
 
-######Team:
 
-####[Andre Watts](https://github.com/andrewatts85)
-####[Blake Wilson](https://github.com/BlakeSandes)
 
-#### [Encyclopedia Entries](https://github.com/andrewatts85/encyclopedia-entries)
 
-#### [Live Demo](https://andrewatts85.github.io/Books-ModernDeveloper/)
