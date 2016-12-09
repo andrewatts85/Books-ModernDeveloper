@@ -1,9 +1,10 @@
-.buybook-section {
-	margin: 30px 0 80px;
-	height: 36px;
+.buybook-container {
+	position: relative;
+	margin: 30px 0 60px;
+	height: 38px;
 	width: 100%;
 }
-.buybook-container {
+.buybook-button {
 	/*Positioning*/
 	display: block;
 	float: left;
@@ -15,11 +16,11 @@
 	/*Appearance*/
 }
 
-.buybook-container a {
+.buybook-button a {
 	height: 100%;
 }
 
-.buybook-container img {
+.buybook-button img {
 	width: 100%;
 }
 
@@ -35,7 +36,7 @@
 	/*Positioning*/
 	display: block;
 	float: left;
-	padding: 9px;
+	padding: 10px;
 	/*Dimensions*/
 	width: 70px;
 	height: 100%;
@@ -62,7 +63,7 @@
 	width: 145px;
 	height: 4px;
 	border-radius: 2px 2px 0 0;
-	background: linear-gradient(to right, #e8a3bb, #e8a3bb 14%, #e16d5b 15%, #e16d5b 49%, #c34859 50%, #c34859 84%, #8c2827 85%);
+	background: linear-gradient(to right, #e69b2e, #e69b2e 17%, #e16d5b 18%, #e16d5b 49%, #c34859 50%, #c34859 82%, #8c2827 83%);
 }
 
 .gumroad-button img,
@@ -83,37 +84,99 @@
 }
 
 .amazon-button {
-	position: relative;
 	height: 100%;
 	background: #272727;
 	text-align: center;
 }
 
 .amazon-button img {
-	width: 80%;
-	padding-top: 6px;
+	width: 77%;
+	padding-top: .45rem;
 }
-
-
 
 .manning-button {
 	background: #272727;
 	text-align: center;
-	padding-top: 6px;
+	padding-top: .375rem;
+	line-height: .7rem;
 }
 
 .manning-button .first-word {
+	padding-top: 2px;
 	color: #a0a0a0;
-	font-size: .60rem;
+	font-size: .7rem;
 }
 
 .manning-button span {
 	display: block;
+	margin: 0;
 	color: #a7c945;
-	font-size: .75rem;
+	font-size: .8rem;
 }
 
+.bookmark-container {
+	/*Positioning*/
+	position: relative;
+	position: absolute;
+	top: -13px;
+	right: 0;
+	display: block;
+	text-align: center;
+	width: 78px;
+	height: 56px;
+}
 
+.bookmark-container .bookmark-button {
+	/*Positioning*/
+	position: relative;
+	margin: 6px auto;
+	padding: 5%;
+	/*Dimensioning*/
+	width: 23px;
+	height: 23px;
+	/*Appearance*/
+	border-radius: 3px;
+	background: #858683;
+}
 
+.bookmark-button span {
+	/*Positioning*/
+	display: block;
+	margin: 0 auto;
+	/*Dimensioning*/
+	width: 94%;
+	height: 3px;
+	/*Appearance*/
+	background: #f5f4f4;
+}
+
+.bookmark-button span:first-child {
+	margin-bottom: 3px;
+}
+.bookmark-button span:last-child {
+	/*Positioning*/
+	float: left;
+	margin-top: 3px;
+	/*Dimensions*/
+	width: 50%;
+}
+
+.bookmark-button::after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: -6px;
+	width: 21px;
+	height: 21px;
+	border-left: 3px solid #858683;
+	border-bottom: 3px solid #858683;
+	border-radius: 0 0 0 3px;
+}
+
+.bookmark-button + span {
+	padding-right: 2px;
+	font-size: .8rem;
+	color: #858683;
+}
 
 
