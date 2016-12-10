@@ -1,9 +1,10 @@
 /* Begin book component styling */
+
 .book-section {
     background-color: white;
     height: 33.6em;
-    width: 85%;
-    margin: 0 auto;
+    width: 100%;
+    margi: 0 auto;
     border-top: 3.5em solid #F5F5F5;
     overflow: hidden;
     font-family: Roboto;
@@ -22,6 +23,7 @@
 }
 
 .book-section .stats .book-title > h1 {
+    max-width: 100%;
     font-size: 1.8em;
     line-height: .5em;
     font-weight: 400;
