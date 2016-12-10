@@ -95,3 +95,8 @@
 .vert-button {
 	font-size: .85rem;
 }
+
+/* hide .mannning-button */
+.tabbed-container + .buybook-container .buybook-button:nth-child(3) {
+	visibility: hidden;
+}
