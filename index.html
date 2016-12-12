@@ -18,6 +18,7 @@
                     <h1><span class="h1-first-word">Books.</span> Modern Developer</h1>
                     <p>The Largest Resource of Web and Mobile Development and Programming Books</p>
                 </div>
+                <!-- Search bar -->
                 <div class="search-container">
                     <label for="search"></label>
                     <input id="search" class="search" type="search" placeholder="Search books by any keyword or title...">
@@ -26,6 +27,7 @@
                 </div>
             </div>
         </header>
+        <!-- Site Navigation -->
         <nav class="site-nav-menu clearfix">
             <ul>
                 <li><a href="">UI/UX Design</a></li>
@@ -43,16 +45,16 @@
         <div class="book-section">
             <div class="stats">
                 <div class="book-title">
-                    <h1>Eloquent Javascript:</h1>
+                    <h1>Eloquent JavaScript:</h1>
                     <h1>A Modern Introduction to Programming</h1>
-                    <p>by <a href="#">Marijn Haverbeke</a> &nbsp;&nbsp; <a href="#">Follow</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>Published on 2015 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2nd edition</span></p>
+                    <p>by <a href="#">Marijn Haverbeke</a>  <a href="#">Follow</a> <span>Published on 2015</span>  <span>2nd edition</span></p>
                 </div><!-- .book-title -->
                 <div class="info">
-                    <p>JavaScript lies at the heart of almost every modern web application, form social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
+                    <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
                     <p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.</p><br>
                     <a href="#">Read More</a>
                 </div><!-- .info -->
-                <div class="score">
+                <div class="score-content">
                     <div class="meter-bar">
                         <p>Easy to follow <i class="material-icons">chat_bubble</i> <span>80%</span></p>
                         <meter value="80" max="100"></meter>
@@ -66,9 +68,9 @@
                         <meter value="95" max="100"></meter>
                     </div>
                     <div class="links">
-                        <a href="#">Rate the Book <i class="material-icons">keyboard_arrow_right</i></a><br>
+                        <a href="#">Rate the Book <i class="material-icons">keyboard_arrow_right</i></a>
                         <hr>
-                        <a href="#">Table of Contents <i class="material-icons">keyboard_arrow_right</i></a><br>
+                        <a href="#">Table of Contents <i class="material-icons">keyboard_arrow_right</i></a>
                         <hr>
                         <a href="#">Search Inside <i class="material-icons">keyboard_arrow_right</i></a>
                     </div>
@@ -88,21 +90,21 @@
                     </a>
                 </div>
                 <span class="book-price">$28.40</span>
-            </div>
+            </div><!-- .buybook-button -->
             <div class="buybook-button">
                 <div class="publisher-container amazon-button">
                     <a href="https://www.amazon.com">
                         <img src="UI_Assets/amazon_icon.png" alt="Amazon.com arrow">
                     </a>
-                </div>
+                </div><!-- .amazon-button -->
                 <span class="book-price">$29.65</span>
-            </div>
+            </div><!-- .buybook-button -->
             <div class="buybook-button">
                 <div class="publisher-container manning-button">
                     <a href="https://www.manning.com"><span class="first-word">publisher</span><span>manning.com</span></a>
-                </div>
+                </div><!-- .manning-button -->
                 <span class="book-price">$28.70</span>
-            </div>
+            </div><!-- .buybook-button -->
             <div class="bookmark-container">
                 <a href="">
                     <div class="bookmark-button">
@@ -112,7 +114,7 @@
                     </div>
                     <span class="bookmark-text">Bookmark It</span>
                 </a>
-            </div>
+            </div><!-- .bookmark-container -->
         </section><!-- end buy button markup -->
 
         <!-- Begin book component markup -->
@@ -121,14 +123,14 @@
                 <div class="book-title">
                     <h1>JavaScript and JQuery: Interactive Front-end</h1>
                     <h1>Web Development</h1>
-                    <p>by <a href="#">Jon Duckett</a> &nbsp;&nbsp; <a href="#">Follow</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>Published on 2016 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1st edition</span></p>
+                    <p>by <a href="#">Jon Duckett</a> <a href="#">Follow</a> <span>Published on 2016</span> <span>1st edition</span></p>
                 </div><!-- .book-title -->
                 <div class="info">
                     <p>In JavaScript &amp; jQuery renowned author Jon Duckett discards the traditional programming book template and approaches writing code in a more relevant, less intimidating way.</p>
                     <p>Full-color and packed with instructional graphics and photos, his books have gained a loyal following by illustrating programming in a way both instructive for newcommers and invaluable for seasoned coders.</p><br>
                     <a href="#">Read More</a>
                 </div><!-- .info -->
-                <div class="score">
+                <div class="score-content">
                     <div class="meter-bar">
                         <p>Easy to follow <i class="material-icons">chat_bubble</i> <span>80%</span></p>
                         <meter value="80" max="100"></meter>
@@ -156,58 +158,69 @@
         </div><!-- .book-section -->
         <!-- buy buttons markup -->
         <section class="buybook-container clearfix">
-            <div class="buybook-button">
-                <div class="publisher-container gumroad-button">
-                    <a href="https://www.gumroad.com">
-                        <img src="UI_Assets/gumroad_icon.png" alt="Gumroad icon">
-                        <span>Gumroad</span>
-                    </a>
-                </div>
-                <span class="book-price">$28.40</span>
-            </div>
-            <div class="buybook-button">
-                <div class="publisher-container amazon-button">
-                    <a href="https://www.amazon.com">
-                        <img src="UI_Assets/amazon_icon.png" alt="Amazon.com arrow">
-                    </a>
-                </div>
-                <span class="book-price">$29.65</span>
-            </div>
-            <div class="buybook-button">
-                <div class="publisher-container manning-button">
-                    <a href="https://www.manning.com"><span class="first-word">publisher</span><span>manning.com</span></a>
-                </div>
-                <span class="book-price">$28.70</span>
-            </div>
-            <div class="bookmark-container">
-                <a href="">
-                    <div class="bookmark-button">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <span class="bookmark-text">Bookmark It</span>
-                </a>
-            </div>
+            <form class="download-book-form" method="get" action="file.doc">
+                <button class="download-book-button" type="submit">Download the Book</button>
+            </form>
         </section><!-- end buy button markup -->
 
-        <!-- tabbed overlay markup -->
-        <div class="tabbed-container clearfix">
-            <section class="tabbed-section">
-                <label for="search-book"></label>
-                <input class="search-book" id="search-book" type="search" placeholder="JavaScript">
-                <article></article>
-                <aside class="tab-sidebar">
-                    <button><span>╳</span></button>
-                    <button class="tab-selected vert-button">Search Inside</button>
-                    <button class="vert-button">Table of Contents</button>
-                    <button class="vert-button">Rate the Book</button>
-                </aside>
-            </section>
-        </div>
+        <!-- Begin book component markup -->
+        <div class="tabbed-container-overlay book-section">
+            <div class="stats">
+                <div class="book-title">
+                    <h1>Eloquent JavaScript:</h1>
+                    <h1>A Modern Introduction to Programming</h1>
+                    <p>by <a href="#">Marijn Haverbeke</a>  <a href="#">Follow</a> <span>Published on 2015</span>  <span>2nd edition</span></p>
+                </div><!-- .book-title -->
+                <div class="info">
+                    <p>JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.</p>
+                    <p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.</p><br>
+                    <a href="#">Read More</a>
+                </div><!-- .info -->
+                <div class="score-content">
+                    <div class="meter-bar">
+                        <p>Easy to follow <i class="material-icons">chat_bubble</i> <span>80%</span></p>
+                        <meter value="80" max="100"></meter>
+                    </div>
+                    <div class="meter-bar">
+                        <p>Comprehensive <i class="material-icons">chat_bubble</i> <span>75%</span></p>
+                        <meter value="75" max="100"></meter>
+                    </div>
+                    <div class="meter-bar">
+                        <p>Enough examples <i class="material-icons">chat_bubble</i> <span>95%</span></p>
+                        <meter value="95" max="100"></meter>
+                    </div>
+                    <div class="links">
+                        <a href="#">Rate the Book <i class="material-icons">keyboard_arrow_right</i></a>
+                        <hr>
+                        <a href="#">Table of Contents <i class="material-icons">keyboard_arrow_right</i></a>
+                        <hr>
+                        <a href="#">Search Inside <i class="material-icons">keyboard_arrow_right</i></a>
+                    </div>
+                </div><!-- .score -->
+            </div><!-- .stats -->
+            <div class="book-img">
+                <img src="UI_Assets/eloquentjs.jpg">
+            </div><!-- .book-img -->
+            <!-- tabbed overlay markup -->
+            <div class="tabbed-container clearfix">
+                <section class="tabbed-section">
+                    <label for="search-book"></label>
+                    <input class="search-book" id="search-book" type="search" placeholder="JavaScript">
+                    <article></article>
+                </section>
+            </div><!-- .tabbed-container -->
+            <!-- .tabbed-sidebar -->
+            <aside class="tab-sidebar">
+                <button><span>╳</span></button>
+                <button class="tab-selected vert-button">Search Inside</button>
+                <button class="vert-button">Table of Contents</button>
+                <button class="vert-button">Rate the Book</button>
+            </aside><!-- .tabbed-sidebar -->
+        </div><!-- .book-section -->
+        
         <!-- buy buttons markup -->
         <section class="buybook-container clearfix">
-            <div class="buybook-button">
+            <!-- <div class="buybook-button">
                 <div class="publisher-container gumroad-button">
                     <a href="https://www.gumroad.com">
                         <img src="UI_Assets/gumroad_icon.png" alt="Gumroad icon">
@@ -215,7 +228,7 @@
                     </a>
                 </div>
                 <span class="book-price">$28.40</span>
-            </div>
+            </div> -->
 
             <div class="buybook-button">
                 <div class="publisher-container amazon-button">
@@ -251,14 +264,14 @@
                 <div class="book-title">
                     <h1>Learning PHP, MySQL &amp; JavaScript: With</h1>
                     <h1> jQuery, CSS &amp; HTML5</h1>
-                    <p>by <a href="#">Robin Nixon</a> &nbsp;&nbsp; <a href="#">Follow</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>Published on 2016 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4th edition</span></p>
+                    <p>by <a href="#">Robin Nixon</a> <a href="#">Follow</a> <span>Published on 2016</span> <span>4th edition</span></p>
                 </div><!-- .book-title -->
                 <div class="info">
                     <p>Build interactive, data-driven websites with the potent combination of open-source technologies and web standards, even if you have only basic HTML knowledge. With this popular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, AND HTML5.</p>
                     <p>By discussing JavaScript and jQuery in a single text, Nixon ensures you will quickly be writing your own...</p><br>
                     <a href="#">Read More</a>
                 </div><!-- .info -->
-                <div class="score">
+                <div class="score-content">
                     <div class="meter-bar">
                         <p>Easy to follow <i class="material-icons">chat_bubble</i> <span>80%</span></p>
                         <meter value="80" max="100"></meter>
