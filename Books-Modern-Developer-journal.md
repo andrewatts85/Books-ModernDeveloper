@@ -23,7 +23,7 @@ The project was a collaboration between myself and [Andre Watts](https://github.
   * Rating sliders.
   * Links to the forthcoming sections of Rating the Book, Table of Contents, and searching inside the book.
   * Image of book cover.
-  * *Download the Book* button.
+ 
 
 ##### My project contribution
 
@@ -31,14 +31,18 @@ The project was a collaboration between myself and [Andre Watts](https://github.
 
 * Site navigation buttons.
 
-* The *search inside* section with vertical tabs.
+* The *Search Inside* section with vertical tabs.
+
+* Overlaying the *Search Inside* section onto the *book section*.
 
 * The *Gumroad*, *Amazon*, *Manning Publishing* book purchase buttons as well as the *Bookmark It* button.
 
 * The *Load More Books* link.
 
-* The footer
+* *Download the Book* button.
 
+* The footer
+ 
 ##### Thoughts regarding team member
 
 Andre Watts was great to work with. Though our schedules were challenging and we both worked separately for the most part, I felt we both communicated well and I enjoyed the project very much. I found Andre to be positive and easy to bounce ideas off of. I would enjoy working with him again.
