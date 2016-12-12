@@ -10,12 +10,10 @@
     /*Appearance*/
     z-index: 1;
     background-color: white;
-    
-    border: none;
+    border-radius: 3px;
 }
 
 .book-section .stats {
-    /*max-width: 47.625rem;*/
     /*Positioning*/
     z-index: 2;
     float: left;
@@ -29,8 +27,6 @@
 /* header styles*/
 .book-section .stats .book-title {
     width: 100%;
-    /*padding-top: 1.25em;*/
-    /*padding-left: 1.5em;*/
 }
 
 .book-section .stats .book-title > h1 {
@@ -41,10 +37,6 @@
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
 }
-
-/*.book-section .stats .book-title > h1:first-child {
-    padding-left: 2px;
-}*/
 
 .book-section .stats .book-title > p {
     font-size: .8rem;
@@ -64,7 +56,7 @@
     font-size: .7rem;
     color: #A7C931;
     border: .063em solid #A7C931;
-    border-radius: .25em;
+    border-radius: 3px;
 }
 
 .book-section .stats .book-title > p span {
@@ -78,8 +70,6 @@
 .book-section .stats .info {
     border-right: .063rem solid #E5E5E5;
     width: 58%;
-    /*padding: 0 1.5em 1.5em 0;*/
-    /*margin-bottom: 1em;*/
     float: left;
 }
 
@@ -101,26 +91,19 @@
     width: 42%;
     float: left;
     padding-top: .75rem;
-    /*position: relative;*/
-    /*top: -2em;*/
 }
 
 .book-section .stats .score-content .meter-bar {
-    /*position: relative;*/
-    /*height: 1.8rem;*/
     font-size: .8rem;
     padding: 0 1.5rem;
-    /*border: 1px solid black;*/
 }
 
 .book-section .stats .score-content .meter-bar p {
     position: relative;
-    /*top: 24px;*/
     display: block;
     margin: 0;
     margin-top: .75rem;   
     padding-left: .45rem;
-    /*padding-bottom: 1px;*/
     width: 100%;
     color: #F7BE26;
 }
@@ -143,7 +126,6 @@
 }
 
 .book-section .stats .score-content .meter-bar p > span {
-    /*margin-top: 1rem;*/
     display: block;
     float: right;
 }
@@ -176,7 +158,6 @@
     margin-top: 40px;
     padding-left: 1.55rem;
     line-height: .95rem;
-    /*font-size: .875rem;*/
 }
 
 .book-section .stats .score-content .links a {
@@ -189,7 +170,6 @@
 .book-section .stats .score-content .links a i {
     float: right;
     font-size: 1em;
-    /*padding-top: .5em;*/
     padding-right: 1.75rem;
 }
 
@@ -201,7 +181,7 @@
 }
 
 /* .button styles */
-ul.buttons {
+/*ul.buttons {
     list-style-type: none;
     width: 85%;
     margin: 1em 0 0 2.9em;;
@@ -265,7 +245,7 @@ ul.buttons li:nth-child(4) {
 ul.buttons li i {
     font-size: 2.5em;
     color: #858683;
-}
+}*/
 
 /* .book-img styles */
 .book-section .book-img {
@@ -277,16 +257,13 @@ ul.buttons li i {
     /*max-width: */
     height: 100%;
     /*Appearance*/
-    /*background: #fff;*/
+    background: #fff;
+    border-radius: 4px;
 }
 .book-section .book-img img {
-    /*position: relative;
-    top: -9.32em;
-    height: 30.5em;
-    width: 32%;*/
     width: 100%;
     height: 100%;
-    border-radius: 3px;
+    border-radius: 4px;
     z-index: 2;
 }
 /* End book component styling */
