@@ -1,5 +1,4 @@
 # [Books.Modern Developer]( https://blakesandes.github.io/Books-ModernDeveloper/)
-# [Watts Live Demo](https://andrewatts85.github.io/Books-ModernDeveloper/)
 
 The Books.Modern Developer site is intended to be **"The Largest Resource of Web and Mobile Development and Programming Books"**
 
