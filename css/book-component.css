@@ -95,7 +95,7 @@
 
 .book-section .stats .score-content .meter-bar {
     font-size: .8rem;
-    padding: 0 1.5rem;
+    padding: 0 1.35rem 0 1.5rem;
 }
 
 .book-section .stats .score-content .meter-bar p {
@@ -117,17 +117,36 @@
 }
 
 .book-section .stats .score-content .meter-bar p i {
+    position: relative;
     position: absolute;
     top: -.375rem;
     display: inline-block;
     margin-left: .25rem;
     font-size: 1.45rem;
-
 }
 
-.book-section .stats .score-content .meter-bar p > span {
+.book-section .stats .score-content .meter-bar p .material-icons.md-light {
+    z-index: 1;
+    opacity: .5;
+}
+
+/*.book-section .stats .score-content .meter-bar p .data-number:after {
+    content: attr(data-bubble);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 1.45rem;
+    height: 1.45rem;
+    margin-left: 10px;
+    margin-top: -38px;
+    color: rgba(0,0,0, .65);
+    font-size: .6rem;
+}*/
+
+.book-section .stats .score-content .meter-bar p  span:last-child {
     display: block;
     float: right;
+    padding-right: 6px;
 }
 
 .book-section .stats .score-content .meter-bar meter {
