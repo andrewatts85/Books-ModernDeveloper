@@ -34,6 +34,8 @@ body {
 }
 
 main {
+	position: relative;
+	z-index: 1;
 	max-width: 1085px;
 	height: 100%;
 	margin: 0 auto;
